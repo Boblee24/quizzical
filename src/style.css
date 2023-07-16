@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background: #F5F7FB;
+    /* background-color: red; */
     font-family: 'Karla', sans-serif;
 }
 
@@ -34,9 +35,9 @@ h3{
 button.welcome_button {
     background: #4D5B9E;
     border-radius: 16px;
-    width: 150px;
+    /* width: 150px; */
     font-family: 'Inter', sans-serif;
-    padding: 10px 0;
+    padding: 10px 21px;
     /* outline: none; */
     /* appearance: none; */
     border: none;
@@ -61,8 +62,8 @@ button.welcome_button {
 }
 .welcome {
     display: flex;
-    justify-content: flex-end;
-    margin: 20px;
+    justify-content: center;
+    /* margin: 20px; */
 }
 .box_for_options{
     display: flex;
@@ -72,7 +73,7 @@ span{
     margin: 20px;
 }
 button{
-    background: yellow;
+    /* background: yellow; */
     border: 1px solid #4D5B9E;
     outline: none;
     appearance: none;
@@ -82,4 +83,42 @@ button{
     background: none;
     font-weight: 500;
     font-family: 'Inter', sans-serif;
+}
+@media only screen and (max-width:950px){
+    .section2 {
+        margin: 10px 40px 20px 20px;
+    }
+}
+@media only screen and (max-width:600px){
+    h2 {
+        font-size: 23px;
+    }
+    button{
+        padding: 4px 13px;
+    }
+    
+}
+@media only screen and (max-width:500px){
+    h2 {
+        font-size: 21px;
+    }
+    /* button{
+        padding: 4px 13px;
+    } */
+    
+}
+@media only screen and (max-width:410px){
+    h2 {
+        font-size: 19px;
+    }
+    .button.welcome_button{
+        font-size: 14px;
+    }
+    span{
+        font-size: 14px;
+    }
+    /* button{
+        padding: 4px 13px;
+    } */
+    
 }
