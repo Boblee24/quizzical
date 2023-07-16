@@ -68,6 +68,7 @@ button.welcome_button {
 .box_for_options{
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
 }
 span{
     margin: 20px;
